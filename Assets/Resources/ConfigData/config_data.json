@@ -1,0 +1,38 @@
+{
+	"levels":
+	[
+		{
+			"id": "level_1",
+			"sizeX": 20,
+			"sizeZ": 20,
+			"maxUnits": 10,
+			"maxBombs": 6,
+			"maxWalls": 8,
+			"bombSpawnAltitude": 30,
+		}
+	],
+	"units": 
+	[
+		{
+			"hp": 3
+		}
+	],
+	"bombs":
+	[
+		{
+			"bombType": "normal",
+			"explodeRange": 5,
+			"damage": 2
+		},
+		{
+			"bombType": "forced",
+			"explodeRange": 3,
+			"damage": 4
+		},
+		{
+			"bombType": "cluster",
+			"explodeRange": 2,
+			"damage": 1
+		}
+	]
+}
